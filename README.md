@@ -17,6 +17,24 @@ Django-rest-auth provides a set of REST API endpoints for Authentication and Reg
 4. Google Chrome v.83.0.4103.61    
 5. Google Chrome driver v.83.0.4103.61
 
+
+# Project Structure:
+ 
+	
+	.
+	├── mysite
+	│   ├── db.sqlite3
+	│   ├── manage.py
+	│   └── mysite
+	│       ├── asgi.py
+	│       ├── __init__.py
+	│       ├── __pycache__
+	│       ├── settings.py
+	│       ├── urls.py
+	│       └── wsgi.py
+	└── README.md
+	
+
 # Features:
   ---------
   * User registration
@@ -25,7 +43,7 @@ Django-rest-auth provides a set of REST API endpoints for Authentication and Reg
 
   * Change password - with password reset email.
 
-  * View user profile
+ 
   
 
 ## APIs Details
@@ -55,7 +73,7 @@ iii. Create local_settings.py inside mysite directory.
 	DEFAULT_FROM_EMAIL = '<to_be_filled>'
 
 **Note:**
-By default, Sqlite3 database is used. You may also use different database in local_settings file if required.
+By default, dbSqlite3 database is used. You may also use different database in local_settings file if required.
 
 iv. Run migrations
 
@@ -77,23 +95,9 @@ v. Ready to run the server.
 	python manage.py test
 
 
-# Project Structure:
- 
-	```
-	.
-	├── mysite
-	│   ├── db.sqlite3
-	│   ├── manage.py
-	│   └── mysite
-	│       ├── asgi.py
-	│       ├── __init__.py
-	│       ├── __pycache__
-	│       ├── settings.py
-	│       ├── urls.py
-	│       └── wsgi.py
-	└── README.md
 
 
 
 
-	```
+
+	
