@@ -69,31 +69,31 @@ v. Ready to run the server.
 
 # Linting:
 
-make lint
+	make lint
 
 
 # Testing:
 
-python manage.py test
+	python manage.py test
 
 
 # Project Structure:
  
-```
-.
-├── mysite
-│   ├── db.sqlite3
-│   ├── manage.py
-│   └── mysite
-│       ├── asgi.py
-│       ├── __init__.py
-│       ├── __pycache__
-│       ├── settings.py
-│       ├── urls.py
-│       └── wsgi.py
-└── README.md
+	```
+	.
+	├── mysite
+	│   ├── db.sqlite3
+	│   ├── manage.py
+	│   └── mysite
+	│       ├── asgi.py
+	│       ├── __init__.py
+	│       ├── __pycache__
+	│       ├── settings.py
+	│       ├── urls.py
+	│       └── wsgi.py
+	└── README.md
 
 
 
 
-```
+	```
